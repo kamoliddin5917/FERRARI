@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>FERRARI</title>
+</head>
+
+<body>
+  <div class="avtosalon">
+    <div class="container">
+      <div class="text">
+        <h1 class="h1">ferrarilar dunyosiga xush kelibsiz!</h1>
+        <p class="p">Avto salonga xush kelibsiz mashina omoqchimisiz birinchi ro'yxatdan o'ting :)</p>
+      </div>
+      <form class="form" action="https://echo.htmlacademy.ru">
+        <h3 class="h3">Send us a Message</h3>
+        <input class="input" type="text" placeholder="Name" name="name" required>
+        <input class="input" type="email" placeholder="Email" name="email" required>
+        <input class="input" type="tel" placeholder="Mobile" name="tell_number" required>
+        <h4 class="h4">Preferred mode of Communication</h4>
+        <div class="chekboxes">
+          <div class="chekbox">
+            <input class="input-radio" id="email-chek" type="radio" name="selected_connection">
+            <label for="email-chek"> <span></span> Email</label>
+          </div>
+
+          <div class="chekbox">
+            <input class="input-radio" id="phone-chek" type="radio" name="selected_connection">
+            <label for="phone-chek"> <span></span> Phone</label>
+          </div>
+        </div>
+        <textarea class="izox" name="izox" placeholder="Message" required></textarea>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
