@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  color: #fff;
+  background-color: var(--asosiy-rang);
+}
+
 body {
   font-family: sans-serif;
 }
@@ -45,6 +50,7 @@ body {
   font-weight: 700;
 }
 
+
 .p {
   margin-top: 15px;
   color: var(--asosiy-rang);
@@ -53,6 +59,11 @@ body {
   width: 650px;
   font-weight: 600;
   text-align: center;
+}
+
+.p::selection {
+  color: #fff;
+  background-color: var(--asosiy-rang);
 }
 
 .form {
